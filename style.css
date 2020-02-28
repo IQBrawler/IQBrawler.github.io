@@ -1,0 +1,389 @@
+@font-face{
+	font-family: font1;
+	src:                                                                                                                                           
+}
+body{
+	background-color: #000;
+	margin: 0;
+}
+#top-menu{
+	height: 60px; 
+	width: 100%;
+	background-color: #000;
+	top: 0;
+	position: fixed;
+	z-index: 100000;
+}
+.top-menu-btn{
+	position: relative;
+	color: #fff;
+	height: 40px;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
+.vec{
+	height: 20px;
+	transition-duration: 300ms;
+	transition-property: transform;
+}
+.top-menu-btn:hover .vec{
+	transform: rotateX(180deg);
+
+}
+.box{
+	position: relative;
+	width: 100%;
+}
+#box1-img{
+	width: 100%;
+
+}
+#box1-title{
+	position: absolute;
+	left: 75%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #43f05d;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+}
+#box1-title b{
+	font-size: 40px;
+
+}
+#box1-title a{
+	text-decoration: none;
+}
+.border-btn{
+	border: solid #fff 2px;
+	display: inline-block;
+	color: #fff; 
+	font-size: 35px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	transition-duration: 300ms;
+	transition-property: padding, margin;
+	text-align: center;
+	text-shadow: 0 0 10px #000;
+}
+.box1-btn{
+	display: inline-block;
+	color: #fff;
+}
+.border-btn:hover{
+	padding: 15px;
+	margin: 5px;
+}
+.top-menu-btn:hover{
+	color: #fcf403;
+	text-shadow: 0 0 5px #f00;
+
+}
+#box2-title-btn{
+	width: 150px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box1-title-btn{
+	display: inline-block;
+
+}
+#box2-img{
+	width: 100%;
+
+}
+#box2-title{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 30px;
+	color: #43f063;
+	text-shadow: 0 0 5px #000;
+	width: 50%;
+}
+#box2-title a{
+	text-decoration: none;
+}
+#box2-title b{
+	font-size: 50px;
+}
+#box2-title-img{
+	width: 200px;
+}
+.solid-btn{
+
+}
+.solid-gold-btn:hover{
+	margin: 5px;
+	padding: 15px;
+	
+}
+.green-btn{
+	background-color: green;
+	border-color: green;
+}
+#footer{
+	background-color: #000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0 0 50px #333 inset;
+}
+#footer a{
+	color: #aaa;
+}
+.footer-a{
+	display: inline-block;
+	margin: 20px;
+
+}
+.middle{
+	height: 5px;
+	width: 100%;
+	background: linear-gradient(to right, #43f05d, #222, #4)
+
+}
+#box1{
+	margin-bottom: -5px;
+}
+#box2{
+	margin-bottom: -5px;
+}
+.tmb-menu{
+	position: absolute;
+	top: 100%;
+	left: 0; 
+	background-color: rgba(0,0,0,0.8);
+	transition-duration: 300ms;
+	transition-property: transform;
+	transform: translateY(-50%) scaleY(0) ;
+}
+.top-menu-btn:hover .tmb-menu{
+	transform: translateY(0) scaleY(1);
+}
+.tmb-menu a{
+    text-decoration: none;
+
+}
+.tmd-menu-btn{
+	display: inline-block;
+}
+#tmb1-menu .tmb-menu-btn{
+	width: 350px;
+}
+#tmb2-menu .tmb-menu-btn{
+	width: 300px;
+}
+#tmb3-menu .tmb-menu-btn{
+	width: 250px;
+}
+#box5{
+	background-color: #ddd;
+	height: 1000px;
+}
+.box5-card{
+	background-color: #222;
+	width: 450px;
+	height: 800px;
+	position: absolute;
+	top: 100px;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	overflow: hidden;
+}
+#box5-card1{
+	right: 51%;
+}
+#box5-card2{
+	left: 51%;
+}
+.box5-card a{
+	text-decoration: none;
+}
+.box5-card-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.box5-card-gradient{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top,
+		rgba(0,0,64,1) 25%, rgba(0,0,0,0) 50%);
+}
+.box5-card-title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 10%;
+}
+.box5-card-title-btn{
+	display: inline-block;
+}
+.triangle-line{
+	height: 3px;
+	width: 30px;
+	border-radius:
+	background-color: #000;
+	position: absolute;
+}
+.triangle{
+	height: 30px;
+	position: relative;
+	width: 30px;
+	display: inline-block;
+}
+.triangle-line-top{
+	top: 22%;
+	left: 0;
+	transform: translate(0,6px) rotate(30deg);
+}
+.triangle-line-bottom{
+	top: 68%;
+	left: 0;
+	transform: translate(0,21px) rotate(330deg);
+}
+.triangle-line-left{
+	top: 45%;
+	left: -40%;
+	transform: translate(-12px,13px) rotate(90deg);
+}
+#box6{
+	height: 800px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #111;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+#box6-more{
+	position: relative;
+	display: inline-block;
+	width: 800px;
+	font-size: 30px;
+	text-align: left;
+	vertical-align: top;
+	margin-right: 30px;
+}
+#box6-simple{
+	padding: relative;
+	display: inline-block;
+	width: 400px;
+	background-color: #eee;
+	min-height: 500px;
+	color: #000;
+}
+#box6-simple-btns{
+	width: 100%;
+	background-color: #bbb;
+	position: relative;
+	height: 100px;
+}
+.box6-simple-btn{
+	position: absolute;
+	font-size: 20px;
+	height: 100%;
+	text-align: center;
+	top: 0;
+}
+#box6-simple-btn1{
+	width: 120px;
+	left: 0;
+	background-color: #ddd;
+}
+#box6-simple-btn2{
+	width: 120px;
+	left: 120px;
+	border-bottom: solid #000 1px;
+}
+#box6-simple-btn3{
+	width: 160px;
+	left: 240px;
+	border-bottom: solid #000 1px;
+}
+#box7{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	background-color: #111;
+}
+.box7-card{
+	height: 700px;
+	width: 450px;
+	background-color: #222;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	transition-duration: 1s;
+	transition-property: transform, box-shadow;
+	overflow-y: hidden;
+}
+.box7-card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 20px 20px #000;
+}
+.box7-card-img{
+	width: 100%;
+}
+#box6-more1{
+	
+}
+#box6-more2{
+	display: none;
+}
+#box6-more3{
+	display: none;
+}
+#box6-simple-main1{
+
+}
+#box6-simple-main2{
+	display: none;
+}
+#box6-simple-main3{
+	display: none;
+}
+#top{
+	height: 30px;
+	text-align: right;
+	background-color: #111;
+	z-index: 10;
+}
+.top-img{
+	height: 100%;
+}
+.box7-card-text{
+
+}
+.box7-card-date{
+	text-align: left;
+	font-family: fantasy;
+	color: #ff0;
+	font-size: 20px;
+}
+.box7-card-name{
+	text-align: left;
+	font-size: 30px;
+	color: #ddd;
+}
+.box7-card-info{
+	text-align: center;
+	color: #ddd;
+	font-size: 20px;
+
+}
