@@ -188,24 +188,19 @@ body{
 }
 #box5{
 	background-color: #ddd;
-	height: 1000px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
 }
 .box5-card{
 	background-color: #222;
 	width: 450px;
-	height: 800px;
-	position: absolute;
-	top: 100px;
+	height: 1000px;
+	position: relative;
 	color: #fff;
 	text-align: center;
 	font-size: 50px;
 	overflow: hidden;
-}
-#box5-card1{
-	right: 51%;
-}
-#box5-card2{
-	left: 51%;
 }
 .box5-card a{
 	text-decoration: none;
@@ -386,4 +381,10 @@ body{
 	color: #ddd;
 	font-size: 20px;
 
+}
+@media(max-width: 850px){
+	#box6-more{
+		width: 100%;
+		margin: 0;
+	}
 }
