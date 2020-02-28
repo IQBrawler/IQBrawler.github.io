@@ -382,9 +382,47 @@ body{
 	font-size: 20px;
 
 }
+@media(max-width: 1050px){
+	#box1-title{
+		width: 100%;
+		left: 50%;
+	}
+	#box2-title{
+		width: 100%;
+		left: 50%;
+	}
+}
 @media(max-width: 850px){
 	#box6-more{
 		width: 100%;
 		margin: 0;
 	}
+}
+@media(max-width: 770px){
+	#box2-title b{
+		display: none;
+	}
+}
+@media(max-width: 640px){
+	#box1-title b{
+		display: none;
+	}
+	#box2-title img{
+		display: none;
+	}
+}
+@media(max-width: 500px){
+	.box{
+		width: 500px;
+	}
+	#top-menu{
+		width: 500px;
+	}
+	#top{
+		width: 500px;
+	}
+	.middle{
+		width: 500px;
+	}
+
 }
