@@ -201,6 +201,7 @@ body{
 	text-align: center;
 	font-size: 50px;
 	overflow: hidden;
+	display: inline-block;
 }
 .box5-card a{
 	text-decoration: none;
